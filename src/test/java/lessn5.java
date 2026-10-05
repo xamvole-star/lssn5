@@ -24,7 +24,7 @@ public class lessn5 {
         getWebDriver().manage().window().maximize();
         System.out.println("Real size: " + getWebDriver().manage().window().getSize());
 
-// dfghdsffhgsfgd
+// ssh проверка
 
 
         $("[class*='HeaderSearch-module__searchSlot']").shouldHave(text("Search")).click();
