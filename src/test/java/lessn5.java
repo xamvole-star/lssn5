@@ -9,7 +9,7 @@ import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class lessn5 {
 /* будем повторять 3 урок и делать ключи ssh для гита
-
+просто взял и сюда добавил на гитхабе изменения
 */
 
 
