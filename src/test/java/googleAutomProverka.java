@@ -22,10 +22,14 @@ public class googleAutomProverka {
 
 //Основной тест
         open("https://google.com");
+<<<<<<< HEAD
         $("[aria-label='Найти']").setValue("It`s my life").pressEnter();
+=======
+        $("[aria-label='Найти']").setValue("ЖОпа с ручкой").pressEnter();
+        System.out.println("This is the best test"); // suit
+>>>>>>> ffc94335e56a97b5983a1bc0d9c3e5a6f8137cd5
         int i = 3;
         Assertions.assertTrue(i>2);
         // System.out.println("This is the best test");
-
     }
 }
