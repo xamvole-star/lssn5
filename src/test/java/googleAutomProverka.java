@@ -22,7 +22,7 @@ public class googleAutomProverka {
 
 //Основной тест
         open("https://google.com");
-        $("[aria-label='Найти']").setValue("ЖОпа с ручкой").pressEnter();
+        $("[aria-label='Найти']").setValue("It`s my life").pressEnter();
         int i = 3;
         Assertions.assertTrue(i>2);
         // System.out.println("This is the best test");
