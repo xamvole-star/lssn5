@@ -22,6 +22,6 @@ public class googleAutomProverka {
 //Основной тест
         open("https://google.com");
         $("[aria-label='Найти']").setValue("ЖОпа с ручкой").pressEnter();
-
+        System.out.println("This is the best test");
     }
 }
