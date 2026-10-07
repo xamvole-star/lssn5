@@ -25,7 +25,7 @@ public class googleAutomProverka {
 
         $("[aria-label='Найти']").setValue("It`s my life").pressEnter();
         System.out.println("This is the best test"); // suit
-        int i = 3;
+        int i = 42;
         Assertions.assertTrue(i>2);
 
     }
